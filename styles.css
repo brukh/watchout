@@ -2,6 +2,7 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+<<<<<<< HEAD
 body {
   background: white;
   border: 1px solid black;
@@ -28,3 +29,6 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+=======
+
+>>>>>>> f8f0c1a60eca94b57b6840c82e2be393fcad3cf6

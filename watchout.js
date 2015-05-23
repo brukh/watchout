@@ -1,3 +1,4 @@
+// start slingin' some d3 here.
 var width = 960,	
 		height = 550,
 		collisionCount = 0,
@@ -43,8 +44,4 @@ var createEnemies = function() {
 
 
 createEnemies();
-
-
-
-
 
