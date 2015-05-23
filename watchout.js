@@ -23,13 +23,13 @@ var svg = d3.select("body")
 						.attr("height", height);
 
 
-
+// create enemies 
 var createEnemies = function() {
 	for (var i = 0; i < enemyCount; i++) {
 		enemies.push(new Enemy());
 	}
 
-
+	// append enemies to board as svg circles
 	svg.selectAll("circle")
     .data(enemies, function(d, i) {return i;})
     .enter().append("circle")
