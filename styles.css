@@ -1,0 +1,30 @@
+/* your beautiful css styling goes here! */
+
+/* Note: an asteroid image is included in this repo.
+Feel free to use it if you like. */
+body {
+  background: white;
+  border: 1px solid black;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enemy {
+	fill: orange;
+}
+
+.player {
+	fill: black;
+}
+
+.scoreboard {
+  background: white;
+  border: 1px solid black;
+  width: 10%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
